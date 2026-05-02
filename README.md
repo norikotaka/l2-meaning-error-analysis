@@ -15,8 +15,9 @@ The dataset consists of annotated L2 learner sentences with marked error spans.
 - Task 2 dataset: used for error type classification (Expression, Discourse, Meaning)
 
 Folder structure:
-data/task1_full_dataset.csv
-     task2_full_dataset.csv
+data/
+  ├── task1_full_dataset.csv
+  └── task2_full_dataset.csv
 
 ## Method
 Model: Qwen3-8B
